@@ -15,11 +15,11 @@ get("/rock") do
     comp_move = moves.sample
   
     if comp_move == "rock"
-      outcome = "tied"
+      @outcome = "tied"
     elsif comp_move == "paper"
-      outcome = "lost"
+      @outcome = "lost"
     else
-      outcome = "won"
+      @outcome = "won"
     end
   
 erb(:zebra)
