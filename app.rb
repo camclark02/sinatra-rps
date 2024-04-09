@@ -36,7 +36,7 @@ get("/paper") do
     @outcome = "won"
   end
 
-erb(:rock)
+erb(:paper)
   
 end
   
