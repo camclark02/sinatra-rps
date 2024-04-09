@@ -53,6 +53,6 @@ get("/scissors") do
     @outcome = "won"
   end
 
-erb(:paper)
+erb(:scissors)
   
 end
